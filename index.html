@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+    body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.jumbotron {
+  background: linear-gradient(to bottom right, #6c63ff, #ff6663);
+  color: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.about {
+  background-color: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.about p {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.education {
+  background-color: #f5f5f5;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.education h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.education .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.education .card:hover {
+  transform: translateY(-5px);
+}
+
+.skills {
+  background-color: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.skills .progress {
+  margin-bottom: 2rem;
+}
+
+.project {
+  background-color: #f5f5f5;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.project h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.project .card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.project .card:hover {
+  transform: translateY(-5px);
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project img:hover {
+  transform: scale(1.1);
+}
+
+.contact {
+  background-color: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact form textarea {
+  height: 15rem;
+}
+
+.contact form button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #4a40c2;
+}
+    </style>
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <img class="rounded-circle img-thumbnail" src="aku.jpg" width="300">
+        <h1 class="display-4">Syaeful anwar</h1>
+        <p class="lead">Student | Web Development</p>
+      </div>
+    </header>
+
+    <section class="about d-flex align-items-center" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>About</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md text-justify">
+            <p>"Hello, and a warm welcome to my portfolio! My name is Syaeful Anwar, and I am thrilled to share with you my journey so far. Recently, I proudly graduated from a distinguished university nestled in the vibrant city of Jombang. Throughout my academic journey, I passionately pursued a degree in Informatics Engineering, delving deep into the realms of computer science and technology.
+
+              As I stand at the cusp of this exciting new chapter, I am acutely aware of the invaluable arsenal of skills I've cultivated. Armed with a solid foundation in informatics engineering, I am equipped to navigate the dynamic landscape of technology with confidence and finesse. I firmly believe that my proficiency in various computer skills will serve as a cornerstone for my future endeavors.
+              
+              The world of technology is constantly evolving, presenting boundless opportunities for innovation and growth. With each keystroke and line of code, I am eager to contribute to this ever-expanding digital frontier. My passion for technology fuels my determination to make meaningful contributions, whether it's developing cutting-edge software solutions or spearheading transformative projects.
+              
+              As you explore my portfolio, I invite you to embark on this journey with me. Together, let's harness the power of technology to shape a brighter, more connected future.
+              
+              Thank you for visiting, and I look forward to connecting with you!".</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>Education</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h3 class="card-title">Kuliah</h3>
+                <h4 class="card-subtitle mb-2 text-muted">Universitas Hasyim As'ari</h4>
+                <p class="card-text">Teknik Informatika</p>
+                <p class="card-text">Graduated: May 2022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h3 class="card-title">SMA</h3>
+                <h4 class="card-subtitle mb-2 text-muted">Madrasah Aliyah Ar-Rahman Sumoyono</h4>
+                <p class="card-text">Graduated: May 2019</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h3 class="card-title">SMP</h3>
+                <h4 class="card-subtitle mb-2 text-muted">SMPN 1 Sidareja</h4>
+                <p class="card-text">Graduated: May 2016</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h3 class="card-title">Sekolah Dasar</h3>
+                <h4 class="card-subtitle mb-2 text-muted">MI Ma'Arif 02 Sidaurip</h4>
+                <p class="card-text">Graduated: May 2013</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>Skills</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">HTML/CSS</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">React</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Node.js</div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="progress">
+              <div class="progress-bar bg-secondary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Git</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-secondary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">Python</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-secondary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Django</div>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">PHP</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="project">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>Projects</h2>
+            <hr>
+         </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="card">
+              <img class="card-img-top" src="img/project1.png" alt="Project 1">
+              <div class="card-body">
+                <h4 class="card-title">Project 1</h4>
+                <p class="card-text">sorry, I'm a fresh graduate.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card">
+              <img class="card-img-top" src="img/project2.png" alt="Project 2">
+              <div class="card-body">
+                <h4 class="card-title">Project 2</h4>
+                <p class="card-text">sorry, I'm a fresh graduate.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card">
+              <img class="card-img-top" src="img/project3.png" alt="Project 3">
+              <div class="card-body">
+                <h4 class="card-title">Project 3</h4>
+                <p class="card-text">sorry, I'm a fresh graduate.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>Contact</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md mb-5">
+            <form class="form-inline">
+              <input class="form-control mr-3" type="text" placeholder="Your Name" aria-label="Name">
+              <input class="form-control mr-3" type="email" placeholder="Email" aria-label="Email">
+              <input class="form-control mr-3" type="text" placeholder="Subject" aria-label="Subject">
+              <textarea class="form-control mr-3" placeholder="Your Message" rows="5" aria-label="Message"></textarea>
+              <button class="btn btn-primary" type="submit">Send</button>
+            </form>
+          </div>
+          <section class="contact" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h2>Contact</h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md mb-5">
+                        <form class="form-inline">
+                            <input class="form-control mr-3" type="text" placeholder="Your Name" aria-label="Name">
+                            <input class="form-control mr-3" type="email" placeholder="Email" aria-label="Email">
+                            <input class="form-control mr-3" type="text" placeholder="Subject" aria-label="Subject">
+                            <textarea class="form-control mr-3" placeholder="Your Message" rows="5" aria-label="Message"></textarea>
+                            <button class="btn btn-primary" type="submit">Send</button>
+                        </form>
+                        <div class="mt-3">
+                            <a href="https://wa.me/628157717342" class="btn btn-success">WhatsApp</a>
+                        </div>
+                    </div>
+          <div class="col-md">
+            <div class="card bg-light">
+              <div class="card-body">
+                <h4 class="card-title">Address:</h4>
+                <p class="card-text">
+                  Sumoyono Cukir Diwek Jombang
+                </p>
+                <h4 class="card-title">Phone:</h4>
+                <p class="card-text">
+                  08157717342
+                </p>
+                <h4 class="card-title">Email:</h4>
+                <p class="card-text">
+                  <a href="mailto:hanasbayu@gmail.com" class="text-primary">Syaefula465@gmail.com</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSGFpoO/ufreqqF6MVu4JdG7PhIxZlW8sSJv43gkdSHlua9DmM/" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoJtKh7z7lGz7fuP4F8nfdFvAOA6Gg/z6Y5J6XqqyGXYM2ntX5" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQtvhmHsE7Yrbk7VzaGOxXUDNZDnTvQHOZx3uGB/Y55HvJ89jpDw" crossorigin="anonymous"></script>
+  </body>
+</html>
